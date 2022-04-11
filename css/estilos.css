@@ -1,0 +1,77 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 96%;
+    height: 100;
+    font-size: 30px;
+    color: blue;
+    background-color: cadetblue;
+}
+
+#header h1 {
+    font: bold 50px Arial, sans-serif;
+    color: #ffffff;
+}
+
+p, span {
+    font-size: 18;
+}
+
+/*selectores por desendencia*/
+
+main p {
+    color: #ff0000;
+}
+
+ul>li {
+    color: #008000;
+}
+
+ul+p {
+    color: #00ff00;
+}
+
+.articulo{
+
+}
+
+#contenido{
+
+}
+
+
+p[name="mitexto"]{
+
+}
+
+p[name^="mi"]{
+    
+}
+
+p[name$="to"]{
+    
+}
+
+p[name\*="tex"]{
+    
+}
+
+p[name=""]{
+    
+}
+
+article img {
+    float: left;
+    margin: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+
+article{
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
